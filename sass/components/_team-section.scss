@@ -1,0 +1,129 @@
+.team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--team-back-color);
+    text-align: center;
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        
+    }
+}
+.team__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: calc(33 / 28);
+    letter-spacing: 0.03em;
+    color:var(--second-black);
+    text-align: center;
+    @media screen and (min-width: 1200px){
+        font-size: 36px;
+line-height: calc(42 / 36);
+
+letter-spacing: 0.03em;}
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    @media screen and (min-width: 479px) {
+        justify-content: center;
+        
+    }
+}
+.team-list__white {
+    background-color: var(--main-white);
+    padding: 30px;
+
+}
+
+.team-list__title {
+    color: var(--second-black);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+        
+    
+}
+
+.social-networks {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+padding: 0;
+margin: 0;
+gap: 10px;
+justify-content: center;
+align-items: center;
+}
+
+.social-networks__link {
+    display: inline-flex;
+    height: 44px;
+    width: 44px;
+    align-items: center;
+    padding: 0;
+    color: var(--social-icon-color);
+    border-radius: 50%;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    color: var(--main-white);
+  
+  }
+  }
+  
+
+.social-networks__icon {
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    fill: currentColor;
+  }
+.team-list__item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        @media screen and (min-width: 480px) {
+            width: 450px;
+          }
+          @media screen and (min-width: 768px) {
+            width: 354px;
+          }
+          @media screen and (min-width: 1200px) {
+            width: 270px;
+            
+          }
+}
+.team-img {
+    display: block;
+    @media screen and (min-width: 480px) {
+        width: 450px;
+        height: 460px;
+      }
+      @media screen and (min-width: 768px) {
+        width: 354px;
+        height: 374px;
+      }
+      @media screen and (min-width: 1200px) {
+      width: 270px;
+height: 260px; }
+}
+.team-list__text {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    margin-bottom: 16px;
+    margin-top: 0;
+}

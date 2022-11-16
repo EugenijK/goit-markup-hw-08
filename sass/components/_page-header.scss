@@ -1,0 +1,211 @@
+.logo-nav__logo {
+    color: var(--main-black);
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    @media screen and (max-width: 767px) {
+    display: block;
+
+
+  }
+
+}
+.auth-nav .link {
+    display: block;
+    color: var(--p-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.logo-nav {
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: 767px) {
+        display: block;
+        padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    @media screen and (min-width: 768px) {
+      display: flex;
+      align-items: center;
+    }
+}
+.logo-nav__web {
+    color: var(--accent-color);
+}
+.header-background {
+    color: var(--main-white);
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    border: 1px solid var(--border-header-color);
+}
+.site-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 93px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    @media screen and (max-width: 767px) {
+        display: none;
+        
+    }
+    @media screen and (min-width: 768px) {
+      display: flex;
+      gap: 51px;
+      margin-left: 88px;
+    }
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      margin-left: 92px;
+      gap: 50px;
+    }
+
+}
+
+.site-nav__link {
+    color: var(--second-black);
+    letter-spacing: 0.02em;
+    display: block;
+    color: var(--black);
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+  text-decoration: none;
+  color: var(--second-black);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+  }
+}
+
+// .site-nav__item {
+//  margin-left: 50px;
+// }
+
+// .site-nav__item:first-child {
+// //  margin-left: 93px;
+// }.
+
+
+
+
+.header-background__container {
+  margin-left: auto;
+  margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+
+    @media screen and (max-width: 479px) {
+        width: auto;
+    }
+    @media screen and (min-width: 480px) {
+        width: 480px;
+      }
+      @media screen and (min-width: 768px) {
+        width: 768px;
+        display: flex;
+        align-items: center;
+      }
+    
+      @media screen and (min-width: 1200px) {
+        width: 1200px;
+      }
+}    
+
+
+
+
+.mail-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    @media screen and (max-width: 767px)
+     { display: none;
+        
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      display: flex;
+      flex-direction: column;
+      margin-left: 96px;
+  
+      font-size: 12px;
+      line-height: calc(14 / 12);
+      letter-spacing: 0.02em;
+    }
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      margin-left: auto;
+      gap: 30px;
+    }
+  
+}
+.mail-nav__link--envelope {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+// .mail-nav__item {
+//     margin-left: 50px;
+// }
+.mail-nav__link {
+    color: var(--text-color);
+    display: flex;
+    transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+ 
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.mail-nav__link--smartphone {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+.smartphone-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+.mail-icon {
+    margin-right: 8px;
+    fill: currentColor;
+}
+.site-nav__link--current::after {
+    display: block;
+    position: relative;
+    bottom: -33px;
+    content: '';
+    height: 4px;
+    width: 100%;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+  }
+.site-nav__link--current {
+    color: var(--accent-color);
+    letter-spacing: 0.02em;
+    
+}
