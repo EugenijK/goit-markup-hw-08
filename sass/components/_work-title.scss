@@ -20,6 +20,9 @@
     margin-top: 0;
     text-align: center;
     padding-bottom: 94px;
+    @media screen and (max-width: 1200px) {
+        padding-bottom: 0;  
+    }
 }
 .work-list__text {
 font-weight: 700;

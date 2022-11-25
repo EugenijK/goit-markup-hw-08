@@ -28,6 +28,10 @@ letter-spacing: 0.03em;}
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    @media screen and (max-width: 480px) {
+        justify-content: center;
+        
+    }
     @media screen and (min-width: 479px) {
         justify-content: center;
         

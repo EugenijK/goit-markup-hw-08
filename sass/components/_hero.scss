@@ -1,7 +1,7 @@
 .hero {
     background-color: var(--hero-back-color);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/background.jpg); 
+    url(../images/back3220); 
     text-align: center;
     height: 400px;
     background-repeat: no-repeat;
@@ -25,6 +25,9 @@
           background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
             url(../images/header767.jpg);
           width: 768px;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1199px) {
+          max-width: 768px;
         }
       
         @media (min-resolution: 2dppx) {
@@ -63,6 +66,9 @@
     width: 700px;
     margin-left: auto;
     margin-right: auto;
+    @media screen and (max-width: 479px) {
+      width: auto;
+    }
     @media screen and (min-width: 480px) {
         width: 360px;
       }
