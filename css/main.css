@@ -1243,7 +1243,7 @@ img {
 }
 @media screen and (max-width: 479px) {
   .footer-email-form {
-    width: 310px;
+    width: 315px;
   }
 }
 @media screen and (min-width: 1200px) {
