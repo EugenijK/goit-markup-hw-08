@@ -106,22 +106,12 @@ align-items: center;
           }
           @media screen and (min-width: 1200px) {
             width: 270px;
-            
           }
 }
 .team-img {
     display: block;
-    @media screen and (min-width: 480px) {
-        width: 450px;
-        height: 460px;
-      }
-      @media screen and (min-width: 768px) {
-        width: 354px;
-        height: 374px;
-      }
-      @media screen and (min-width: 1200px) {
-      width: 270px;
-height: 260px; }
+height: auto;
+object-fit: cover;
 }
 .team-list__text {
     color: var(--text-color);
